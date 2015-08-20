@@ -1,7 +1,7 @@
 {
-  "name": "rander",
-  "version": "1.0.0",
-  "description": "A js module that returns random stuff,like strings,numbers etc",
+  "name": "randem",
+  "version": "1.0.1",
+  "description": "A JS module that returns random stuff,like strings,numbers etc",
   "main": "rander.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
