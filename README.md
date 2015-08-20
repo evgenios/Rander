@@ -3,26 +3,26 @@ NPM module that gives you random stuff
 
 #Usage
 
-`var randem = require('randem');
-var randomInteger = randem.randomInt();`
+`var randem = require('randem');`
+`var randomInteger = randem.randomInt();`
 
-var randomFlo = randem.randomFloat();
+`var randomFlo = randem.randomFloat();`
 
-var randomString = randem.randomString();
+`var randomString = randem.randomString();`
 
-var randomChar = randem.randomCharacter();
+`var randomChar = randem.randomCharacter();`
 
-var randomColor = randem.randomRgbColor();
+`var randomColor = randem.randomRgbColor();`
 
-var randomMo = randem.randomMonth();
+`var randomMo = randem.randomMonth();`
 
-var randomCo = randem.randomCountry();
+`var randomCo = randem.randomCountry();`
 
-var randomNa = randem.randomName();
+`var randomNa = randem.randomName();`
 
-var randomEle = randem.randomElement();
+`var randomEle = randem.randomElement();`
 
-var randomBoolean = randem.randomBool();`
+`var randomBoolean = randem.randomBool();`
 
 You can pass two int arguements to `randomInt` and `randomFloat` to get
 a number between the two arguements.
