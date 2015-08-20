@@ -1,0 +1,22 @@
+{
+  "name": "rander",
+  "version": "1.0.0",
+  "description": "A js module that returns random stuff,like strings,numbers etc",
+  "main": "rander.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgenios/Rander.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Evgenios Kastanias <eugenioska@gmail.com> (http://evgenios.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evgenios/Rander/issues"
+  },
+  "homepage": "https://github.com/evgenios/Rander#readme"
+}
