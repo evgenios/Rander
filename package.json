@@ -1,6 +1,6 @@
 {
   "name": "randem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JS module that returns random stuff,like strings,numbers etc",
   "main": "rander.js",
   "scripts": {
