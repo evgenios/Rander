@@ -1,7 +1,12 @@
-# Rander
+# randem
 NPM module that gives you random stuff
 
-#Usage
+##Instalation
+On the console write :
+
+`npm install randem`
+
+##Usage
 
 `var randem = require('randem');`
 `var randomInteger = randem.randomInt();`
