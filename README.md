@@ -1,14 +1,21 @@
 # randem
-NPM module that gives you random stuff
+***
+NPM module that gives you random stuff.
 
 ## Instalation
+
 On the console write :
 
 `npm install randem`
 
 ## Usage
 
+*First require the module!*
+
 `var randem = require('randem');`
+
+*Then you can get random values by using the functions :*
+
 `var randomInteger = randem.randomInt();`
 
 `var randomFlo = randem.randomFloat();`
@@ -37,6 +44,8 @@ On the console write :
 
 `var randomArrayChar = randem.randomArrayChar();`
 
+### Notes
+
 You can pass two int arguements to `randomInt` and `randomFloat` to get
 a number between the two arguements. If not included they default between 0 and 100.
 You can also include one of the two only.
@@ -46,10 +55,13 @@ between the two arguements.You can also include one of the two only. Please note
 that it will not work if the starting length is bigger than the ending length.
 The points also have to be greater than 0.
 
-If there is anything wrong with your supplied values, the returned value will be `false`.
+**If there is anything wrong with your supplied values, the returned value will be `false`.**
 
-I hope to include objects soon.
+### To Do
++ Objects
++ Array of objects
+
 
 I apprecieate all PR's.
-
-Test will be done at a later date (need to find a testing framework first).
+### Tests
+**Test will be done at a later date (need to find a testing framework first).**

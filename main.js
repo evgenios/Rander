@@ -1,6 +1,7 @@
 // Utility
 
 const pointCheck = (start, end) => {
+  if (typeof start !== Number && typeof end !== Number) return false;
   if (start > end) return false;
   return true;
 };
@@ -11,6 +12,7 @@ const lengthCheck = length => {
 };
 
 const stringCheck = (start, end) => {
+  if (typeof start !== Number && typeof end !== Number) return false;
   if (start >= end) return false;
   if (start <= 0 ) return false;
   return true;

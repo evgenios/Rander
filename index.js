@@ -3,6 +3,7 @@
 'use strict';
 
 var pointCheck = function pointCheck(start, end) {
+  if (typeof start !== Number && typeof end !== Number) return false;
   if (start > end) return false;
   return true;
 };
@@ -13,6 +14,7 @@ var lengthCheck = function lengthCheck(length) {
 };
 
 var stringCheck = function stringCheck(start, end) {
+  if (typeof start !== Number && typeof end !== Number) return false;
   if (start >= end) return false;
   if (start <= 0) return false;
   return true;
