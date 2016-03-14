@@ -1,5 +1,3 @@
-# randem
-
 NPM module that gives you random stuff.
 
 ## Instalation
@@ -44,6 +42,10 @@ On the console write :
 
 `var randomArrayChar = randem.randomArrayChar();`
 
+`var randomObject = randem.randomObject();`
+
+`var randomArrayObj = randem.randomArrayObj();`
+
 ### Notes
 
 You can pass two int arguements to `randomInt` and `randomFloat` to get
@@ -56,12 +58,14 @@ that it will not work if the starting length is bigger than the ending length.
 The points also have to be greater than 0.
 
 **If there is anything wrong with your supplied values, the returned value will be `false`.**
-
-### To Do
-+ Objects
-+ Array of objects
-
+**Else, if the function does not require parameters, it will simply return the value requested**
 
 I apprecieate all PR's.
 ### Tests
-**Test will be done at a later date (need to find a testing framework first).**
+**To run the tests, use `npm test` from the command line.**
+
+
+### Future
+Will probably refactor the code at some point to be more robust.
+Any ideas for other random stuff are appreciated.
+Thanks for looking!
